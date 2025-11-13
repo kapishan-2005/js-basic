@@ -78,12 +78,25 @@
 let Price = 123.4567;
 let rounded = Price.toFixed(2);
 console.log(`Price: Rs ${rounded}`);
-// let fullName = "   jeru  shan   ";
-// let cleanedName = fullName.trim().toUpperCase();
-// console.log(`Hello, ${cleanedName}!`);
+let fullName = "   jeru  shan   ";
+let cleanedName = fullName.trim().toUpperCase();
+console.log(`Hello, ${cleanedName}!`); //battic `
 // let item = "Keyboard";
 // let priceText = "Rs 250.00";
 // console.log(`Item: ${item.padEnd(15)} Price: ${priceText}`);
+// let value = "123abc";
+// let num = Number(value); 
+// if (Number.isNaN(num)) {
+//   console.log("Invalid number!");
+// } else {
+//   console.log("Converted number:", num);
+// // }
+// let text = "hello@@world@@!";
+// let cleanText = text.replace(/@/g,"");
+// console.log(cleanText);  // Output: "helloworld!"
+
+
+
 
 
 
